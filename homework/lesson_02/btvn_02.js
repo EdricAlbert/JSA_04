@@ -35,11 +35,7 @@ function sumPolygon(a){
 }
 //7. Let's Fuel Up!
 function calculateFuel(a){
-    if (a<=10){
-        return(100);
-    } else {
-        return(a*10);
-    }
+    b = a<=10 ? 100:a*10;
 }
 //8. Moving House
 function yearsInOneHouse(a,b){
